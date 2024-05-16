@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #259446;
+  background-image: url(img/river.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.container {
+  background-color: #ffffff;
+  width: 80vw;
+  max-width: 37.5em;
+  padding: 3em 2.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 58%;
+  left: 50%;
+  border-radius: 0.62em;
+  box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+
+}
+
+.search-wrapper {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.25em;
+}
+
+.search-wrapper button {
+  font-size: 1em;
+  background-color: #259446;
+  color: #ffffff;
+  padding: 0.8em 0;
+  border: none;
+  border-radius: 1.5em;
+}
+
+.search-wrapper input {
+  font-size: 1em;
+  padding: 0 0.62em;
+  border: none;
+  border-bottom: 2px solid #259446;
+  outline: none;
+  color: #222a43;
+}
+
+#result {
+  font-family: "Freeman", sans-serif;
+  margin-top: 1.25em;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
+.container .flag-img {
+  display: block;
+  width: 45%;
+  min-width: 7.5em;
+  margin: 1.8em auto 1.2em auto;
+}
+
+.container h2 {
+  font-weight: 600;
+  color: #222a43;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8em;
+}
+
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
+}
+
+.container h4 {
+  display: inline;
+  font-weight: 500;
+  color: #222a43;
+  font-family: "Freeman", sans-serif;
+
+}
+
+.container span {
+  color: #5d6274;
+}
+
+.cursiva {
+
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 100px;
+
+}
+
+.primero {
+  text-align: center;
+  font-size: 80px;
+
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 2%;
+
+
+}
+
+#map {
+  width: 350px;
+  height: 350px;
+  left: 50px;
+  bottom: 240px;
+  border: 2px solid #259446; /* Borde sólido de 2px de ancho y color gris oscuro */
+  border-radius: 10px; /* Añade esquinas redondeadas */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+
+}
